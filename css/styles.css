@@ -1,0 +1,219 @@
+:root{
+--main-decoretion-color: #FFFFFF;
+--secondary-decoretion-color: #2196F3;
+--text-primary-color: #212121;
+--text-secondary-color: #757575;
+
+}
+body{
+    font-family: "Roboto", "sans-serif";
+    background: var(--main-decoretion-color);
+    color: var(--text-primary-color);
+    letter-spacing: 0.03em;
+}
+
+a {
+    text-decoration: none;
+  }
+  /*header*/
+.header-logo{
+    color: var(--secondary-decoretion-color);
+    font-family: "Raleway","sans-serif";
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+span{
+    color: var(--text-primary-color);
+}
+.site-nav .link{
+    color: var(--text-primary-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color:var(--secondary-decoretion-color);
+}
+
+.site-nav .link.current{
+    color: var(--secondary-decoretion-color);
+}
+
+.kontakt-nav .link{
+    color: var(--text-secondary-color);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.kontakt-nav .link:hover,
+.kontakt-nav .link:focus{
+
+    color: var(--secondary-decoretion-color);
+}
+.list{
+    list-style: none;
+}
+/*Hero*/
+.hero{
+    background-color: var(--text-primary-color);
+}
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-decoretion-color);
+}
+.hero-btm{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: var(--main-decoretion-color);
+}
+.hero-btm:hover,
+.hero-btm:focus{
+    background-color: var(--secondary-decoretion-color);
+    color: var(--main-decoretion-color);
+
+}
+/*feature*/
+.feature .tittle{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--text-primary-color);
+
+}
+.feature .text{
+    font-size: 14px;
+    line-height: 1.71;
+
+    color: var(--text-secondary-color);
+}
+.work .tittle{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+    color: var(--text-primary-color);
+
+}
+/*Team*/
+.team .team-tittle{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+    color: var(--text-primary-color);
+}
+
+.team .list-tittle{
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+
+    color: var(--text-primary-color);
+}
+
+.team .list-text{
+
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+
+    color: var(--text-secondary-color);
+}
+/*filters*/
+.filters h1{
+    display: none;
+}
+.filters-list .buttom{
+
+    cursor: pointer;
+    color: var(--text-primary-color);
+    background-color: var(--main-decoretion-color);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.filters-list .buttom:hover{
+    color: var(--main-decoretion-color);
+    background-color: var(--secondary-decoretion-color);
+}
+.filters-list .buttom.primary{
+    color: var(--main-decoretion-color);
+    background-color: var(--secondary-decoretion-color);
+}
+/*projekt*/
+.projekt-tittle{
+    color: var(--text-primary-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projekt-list .text{
+    color: var(--text-secondary-color);
+    font-size: 16px;
+    line-height: 1.87;
+}
+/*footer*/
+footer{
+    background-color: var(--text-primary-color);
+}
+.cellar-logo{
+    color: var(--secondary-decoretion-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19x;
+    letter-spacing: 0.03em;
+}
+.cellar-item{
+    color: var(--main-decoretion-color);
+}
+
+.address-nav .link{
+    color: var(--main-decoretion-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.address-nav .link-item{
+    font-size: 14px;
+    line-height: 1/71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-nav .link:hover,
+.address-nav .link:focus{
+   color: var(--secondary-decoretion-color);
+}
