@@ -12,14 +12,13 @@ body{
     letter-spacing: 0.03em;
 }
 
-a {
+a{
     text-decoration: none;
   }
   /*header*/
 .header-logo{
     color: var(--secondary-decoretion-color);
     font-family: "Raleway","sans-serif";
-    font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -139,7 +138,7 @@ span{
 }
 
 .team .list-text{
-
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -187,6 +186,13 @@ span{
 /*footer*/
 footer{
     background-color: var(--text-primary-color);
+
+}
+footer .address{
+    font-family: "Roboto", "sans-serif";
+}
+.address-nav{
+    font-style: normal;
 }
 .cellar-logo{
     color: var(--secondary-decoretion-color);
@@ -208,7 +214,7 @@ footer{
 
 .address-nav .link-item{
     font-size: 14px;
-    line-height: 1/71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
